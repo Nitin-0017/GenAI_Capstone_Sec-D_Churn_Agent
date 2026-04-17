@@ -1,13 +1,13 @@
-# 📊 Customer Churn Prediction with AI Agent
+#  Customer Churn Prediction with AI Agent
 
 An end-to-end **Machine Learning + AI Agent system** that predicts customer churn and generates **actionable business recommendations** using Retrieval-Augmented Generation (RAG) and LLMs.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 This project solves a critical business problem:  
-👉 **Predicting whether a customer will churn (leave the service)**
+ **Predicting whether a customer will churn (leave the service)**
 
 It combines:
 - Traditional **Machine Learning models**
@@ -21,7 +21,7 @@ The system not only predicts churn but also:
 
 ---
 
-## 🧠 Key Features
+##  Key Features
 
 - 📈 Churn Prediction using ML models  
 - ⚙️ Full preprocessing pipeline (cleaning, encoding, scaling)  
@@ -33,7 +33,7 @@ The system not only predicts churn but also:
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 
 Raw Customer Data
@@ -49,7 +49,7 @@ Final Output (Prediction + Insights + Strategy)
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 - Source: Kaggle Customer Churn Dataset  
 - Total Records: **440,832**  
@@ -68,26 +68,26 @@ Final Output (Prediction + Insights + Strategy)
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
-### 🔹 Machine Learning
+###  Machine Learning
 - Python  
 - scikit-learn  
 - Pandas, NumPy  
 
-### 🔹 AI Agent
+###  AI Agent
 - LangGraph  
 - LangChain  
 - ChromaDB (Vector DB)  
 - Groq (LLaMA 3.1-8b-instant)  
 
-### 🔹 Tools
+###  Tools
 - joblib (model serialization)  
 - Matplotlib / Seaborn  
 
 ---
 
-## 📊 Models Used
+##  Models Used
 
 | Model               | Accuracy | Precision | Recall | F1 Score |
 |--------------------|----------|----------|--------|----------|
@@ -99,7 +99,7 @@ Final Output (Prediction + Insights + Strategy)
 
 ---
 
-## 🎯 Why Threshold = 0.85?
+##  Why Threshold = 0.85?
 
 Instead of default 0.5:
 - Reduces **false positives**
@@ -109,17 +109,17 @@ Instead of default 0.5:
 
 ---
 
-## 🤖 AI Agent Workflow
+##  AI Agent Workflow
 
-### 1️⃣ Prediction Node
+### 1️ Prediction Node
 - Takes customer data  
 - Outputs churn probability + prediction  
 
-### 2️⃣ RAG Node
+### 2️ RAG Node
 - Retrieves relevant churn insights  
 - Uses ChromaDB vector search  
 
-### 3️⃣ Advice Node
+### 3️ Advice Node
 - Uses LLM to generate:
   - Reason  
   - Risk Level (Low / Medium / High)  
@@ -127,7 +127,7 @@ Instead of default 0.5:
 
 ---
 
-## 📌 Sample Output
+##  Sample Output
 
 
 Prediction: Churn
@@ -146,7 +146,7 @@ Offer discounts, upgrade plan, assign dedicated support.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ├── data/
 │   ├── training.csv
@@ -171,7 +171,7 @@ Offer discounts, upgrade plan, assign dedicated support.
 │
 └── README.md
 
-## 🧪 Key Learnings
+##  Key Learnings
 
 - Real-world ML is about **trade-offs (precision vs recall)**  
 - Threshold tuning is sometimes **more important than model choice**  
@@ -180,7 +180,7 @@ Offer discounts, upgrade plan, assign dedicated support.
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 - Small RAG knowledge base  
 - No cross-validation  
@@ -189,7 +189,7 @@ Offer discounts, upgrade plan, assign dedicated support.
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Add XGBoost / LightGBM  
 - Expand RAG knowledge base  
@@ -208,6 +208,6 @@ Offer discounts, upgrade plan, assign dedicated support.
 
 ---
 
-## 📜 License
+##  License
 
 This project is for academic and learning purposes.
